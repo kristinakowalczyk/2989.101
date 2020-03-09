@@ -49,3 +49,15 @@ body{
     margin-top: 25px;
     padding: 15px 30px
 }
+
+#what {
+      background-color: #6B9;
+    border-bottom: 2px dashed #487;
+    color: white;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+    word-spacing: 2em;
+  
+}
+
