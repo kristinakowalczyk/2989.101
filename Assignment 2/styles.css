@@ -1,0 +1,100 @@
+
+            .header {
+                background-color: paleturquoise;
+                height: 100px;
+                position: fixed;
+            }
+            
+            .home {
+                background-color: #404040;
+                height: 500px;
+                text-align: center;
+            }
+            
+            .menu {
+                background-color: pink;
+                height: 500px;
+                text-align: left;
+                color: white;
+                
+            }
+            
+            .contact {
+                background-color: lightgray;
+                height: 400px
+            }
+            
+            /* xs devices */
+            body {background-color: red}
+            
+            /* sm devices */
+            @media( min-width: 576px) {
+                body {background-color: orange}
+            }
+            
+            /* md device */
+            @media (min-width: 768px) {
+                body {background-color: yellow}
+                
+                .home { height: 500px; }
+                
+                .menu { height: 300px;}
+            
+            }
+            
+            /* lg device */
+            @media (min-width:992px) {
+                body {background-color: green}
+                
+                .home {height: 500pxpx;}
+                .menu {height: 500px;}
+                .grey {height:180px; }
+            }
+            
+            /* xl device */
+            @media (min-width:1200px) {
+                body {background-color: blue}
+                
+                .home {height: 500px }
+            }
+       
+
+
+body {
+    background-color: #F2E2CE;
+    margin: 0;
+}
+
+.header {
+    background-color: #1B3B56;
+    color: #203C55;
+}
+
+
+
+.logo {
+    margin-top: 10px;
+    font-size: 2.20rem;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+
+.links {
+    margin-top: 30px;
+    font-size: 1.75rem;
+    text-align: right;
+    
+}
+
+.links a {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+
+
+
+
+            
