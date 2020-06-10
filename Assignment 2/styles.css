@@ -1,9 +1,44 @@
+* {outline:white 3px solid}
 
-            .header {
-                background-color: paleturquoise;
-                height: 100px;
-                position: fixed;
-            }
+ .header {
+     background-color: #990000;
+     height: 100px;
+     position: fixed;
+}
+
+.logo {
+    font-size: 3rem;
+    text-align: left;
+    font-family: 'Lobster', cursive;
+    color: white;
+    line-height: 100px;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+}
+
+.links {
+    margin-top: 30px;
+    font-size: 2rem;
+    text-align: right;
+    
+    
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
             
             .home {
                 background-color: #404040;
@@ -12,16 +47,19 @@
             }
             
             .menu {
-                background-color: pink;
+                background-color: #404040;
                 height: 500px;
-                text-align: left;
-                color: white;
-                
+                text-align: center;
+                color: white; 
+                padding: 15px;
             }
             
             .contact {
                 background-color: lightgray;
-                height: 400px
+                height: 400px;
+                padding:20px;
+                text-align: center;
+                font-size: 1.5rem;
             }
             
             /* xs devices */
@@ -65,35 +103,10 @@ body {
     margin: 0;
 }
 
-.header {
-    background-color: #1B3B56;
-    color: #203C55;
+
+#contacts {
+   
 }
-
-
-
-.logo {
-    margin-top: 10px;
-    font-size: 2.20rem;
-    text-align: center;
-    font-family: 'Lobster', cursive;
-    color: white;
-}
-
-.links {
-    margin-top: 30px;
-    font-size: 1.75rem;
-    text-align: right;
-    
-}
-
-.links a {
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-decoration: none;
-    font-family: 'Lobster', cursive;
-
 
 
 
