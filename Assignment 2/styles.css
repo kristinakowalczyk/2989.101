@@ -1,9 +1,12 @@
-* {outline:white 3px solid}
 
- .header {
+
+.header {
      background-color: #990000;
      height: 100px;
-     position: fixed;
+    top: 0; 
+     position:fixed; 
+     
+    
 }
 
 .logo {
@@ -14,18 +17,12 @@
     line-height: 100px;
 }
 
-.nav {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 950px;
-}
+
 
 .links {
     margin-top: 30px;
-    font-size: 2rem;
-    text-align: right;
+    font-size: 1.5rem;
+    text-align: left;
     
     
 }
@@ -33,81 +30,126 @@
 .links a {
     color: white;
     text-decoration: none;
-    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
     text-align: right;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
+
+
             
-            .home {
-                background-color: #404040;
-                height: 500px;
-                text-align: center;
-            }
+.home {
+    background-color: lightgray;
+    height: 500px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+#home {
+    max-height: 600px; 
+}
             
-            .menu {
-                background-color: #404040;
-                height: 500px;
-                text-align: center;
-                color: white; 
-                padding: 15px;
-            }
+ .menu {
+    background-color: lightgray;
+    height: 500px;
+    text-align: center;
+    color: black; 
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu {
+    background-color: lightgray;
+    color: black;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    height 20px;
+    
+}
+
+.menu_title {
+    height: 100px;
+    background-color: lightgray;
+    font-family: 'Lobster', cursive;
+    font-size: 1rem;
+    text-align: center;
+}
             
-            .contact {
-                background-color: lightgray;
-                height: 400px;
-                padding:20px;
-                text-align: center;
-                font-size: 1.5rem;
-            }
+.contact {
+    background-color: lightgray;
+     height: 400px;
+     padding:100px;
+     padding-bottom: 50px;
+     text-align: center;
+     font-size: 1.5rem;
+     font-family: 'Open Sans', sans-serif;
+    
+ }
+
+#Contacts {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+}
+
+.about {
+     background-color: lightgray;
+     height: 400px;
+     padding-top: 100px;
+     padding:100px;
+     text-align: left;
+     font-size: 1.5rem;
+     font-family: 'Open Sans', sans-serif;
+}
+
+#About {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
             
             /* xs devices */
-            body {background-color: red}
+            body {background-color: white}
             
             /* sm devices */
             @media( min-width: 576px) {
-                body {background-color: orange}
+                body {background-color: white}
+                #menu { height 15px;}
             }
             
             /* md device */
             @media (min-width: 768px) {
-                body {background-color: yellow}
+                body {background-color: white}
                 
                 .home { height: 500px; }
                 
-                .menu { height: 300px;}
+                .menu { height: 350px;}
+                
+                #menu { height 15px;}
             
             }
             
             /* lg device */
             @media (min-width:992px) {
-                body {background-color: green}
+                body {background-color: white}
                 
                 .home {height: 500pxpx;}
                 .menu {height: 500px;}
-                .grey {height:180px; }
+                #menu { height 15px;}
             }
             
             /* xl device */
             @media (min-width:1200px) {
-                body {background-color: blue}
+                body {background-color: white}
                 
                 .home {height: 500px }
+                #menu { height 15px;}
             }
        
 
 
-body {
-    background-color: #F2E2CE;
-    margin: 0;
-}
 
-
-#contacts {
-   
-}
-
-
+\
 
             
